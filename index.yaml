@@ -1,5 +1,15 @@
 apiVersion: v1
 entries:
+  cert-manager-webhook-namecheap:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-12-30T22:21:08.71926804Z"
+    description: Namecheap Webhook for Cert Manager
+    digest: 8c07e30f661cecd8702d8f09fcea9baa726a53988079b11def60e05e40bd10e3
+    name: cert-manager-webhook-namecheap
+    urls:
+    - https://github.com/danajp/cert-manager-webhook-namecheap/releases/download/cert-manager-webhook-namecheap-0.1.0/cert-manager-webhook-namecheap-0.1.0.tgz
+    version: 0.1.0
   letsencrypt-namecheap-issuer:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/danajp/cert-manager-webhook-namecheap/releases/download/letsencrypt-namecheap-issuer-0.1.0/letsencrypt-namecheap-issuer-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-30T21:56:54.735354134Z"
+generated: "2022-12-30T22:21:08.841880166Z"
